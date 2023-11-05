@@ -1,0 +1,5 @@
+# System Logging
+
+## Journalctl
+
+## Syslog
