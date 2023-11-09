@@ -31,7 +31,36 @@ a system and service manager for Linux operating systems. When run as first proc
 - Starts processes in parallel (faster than sequential startup)
 	- systemd uses sockets and d-bus to talk between processes
 ## Units
+- Systemd provides a dependency system between various entities called "units" of 11 types
+- A unit refers to any resource that the system knows how to operate on and manage
+	- standardized representation of system resources that can be managed by the suite of daemons and manipulated by the provided utilities.
+- Units encapsulate objects that are relevant for system boot-up and maintenance
 
+- Unit types
+	- Service
+		- Start and control daemons along with the processes they consist of
+	- Socket
+		- Encapsulate local IPC/network sockets
+	- Target
+		- Useful to group units, or provide synchronization points during boot
+	- Device
+		- Expose kernel devices in systemd and may be used to implement device-based activation
+	- Mount
+		- Control mount points in the file system
+	- Automount
+		- provide automount capabilities, for on-demand file system mounting and parallelized boot
+	- Timer
+		- Useful for triggering activation of other units
+	- Swap
+		- Encapsulates SWAP partitions or files of the OS
+	- Path
+		- May be used to activate other services when file system objects change or are modified
+	- Slice
+		- May be used to group units which manage system processes in a hierarchical tree for resource management purposes
+	- Scope
+		- Manage foreign processes instead of starting them as well
+
+- Units are named as their configuration files
 # Startup Files
 
 ## Creation
