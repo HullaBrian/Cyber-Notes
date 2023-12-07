@@ -1,0 +1,47 @@
+- An object is ANY resource present with an AD environment such as OUs, printers, users, and domain controllers
+
+- Users
+	- considered leaf objects - cannot contain any other objects
+	- [All user attributes](https://www.easy365manager.com/how-to-get-all-active-directory-user-object-attributes/)
+- Contacts
+	- usually represents an external user
+	- contains informational attributes about them
+	- leaf object and NOT security principals (securable objects)
+		- don't have an SID, only a GUID
+- Printers
+	- points to a printer in the AD network
+	- leaf object and not a security principal - no SID, only GUID
+- Computers
+	- any computer joined to the AD network
+	- leaf objects, but are considered security principals
+		- have a SID and GUID
+- Shared Folders
+	- not considered security principals
+- Groups
+	- container object that contains users, computers, or other groups
+	- is a security principal
+- Organizational Units (OUs)
+	- a container that systems administrators can use to store similar objects for ease of administration
+	- often used for administrative delegation of tasks without granting a user account full administrative rights
+- Domain
+	- the structure of an AD network
+	- contain objects such as users and computers, which are organized into container objects: groups and OUs
+- Domain Controllers
+	- handle authentication requests
+	- verify users on the network
+	- control who can access the various resources in the domain
+- Sites
+	- a set of computers across one or more subnets
+- Built-in
+	- built-in is a container that holds [default groups](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/active-directory-security-groups) in an AD domain
+- Foreign Security Principals (FSP)
+	- represents a security principal that belongs to a trusted external forest
+	- created when an object such as a user, group, or computer from an external (outside of the current) forest is added to a group in the current domain
+	- created in a specific container named ForeignSecurityPrincipals with a distinguished name
+# Questions
+-  True or False; Computers are considered leaf objects. 
+	- `True`
+- <<u>___</u>> are objects that are used to store similar objects for ease of administration. (Fill in the blank)
+	- `Organizational Units`
+- What AD object handles all authentication requests for a domain?
+	- `Domain Controller`

@@ -171,7 +171,7 @@ WantedBy=multi-user.target
 ## Scheduled/Startup Tasks
 - text
 ## Generators
-- Generators are small executables placed in `/lib/systemd/system-generators/` and other directories. Systemd executes these binaries at bootup AND at configuration reload time - before unit files are loaded
+- Generators are small executables placed in `/lib/systemd/system-generators/` and other directories. Systemd executes these binaries at bootup AND at configuration reload time  - before unit files are loaded
     - For details, see `man systemd.generator`
 - Paths to generators (according to debian manpage)
     - `/run/systemd/system-generators/*`
