@@ -1,0 +1,44 @@
+- Malware refers to software that has been designed for nefarious purposes
+- Ransomware that performs some action and extracts a ransom from the user
+	- Typically in the form of a worm
+- Trojans are pieces of software that appear to be doing one thing (and may do it) but hide something else
+- Worms are pieces of code that attempt to penetrate networks. Once the penetration occurs, the worm will create a new copy of itself on the system
+- Potentially Unwanted Programs (PUP) are programs that may have adverse effects on security/privacy. They tend to involve adware or spyware
+- Fileless Viruses are viruses that run in memory and don't touch the file system at all
+	- continue to run until the device is powered down
+- <u>Command and control</u> servers are used by hackers to control malware that has been launched against targets
+- A bot is a functioning piece of software that performs some task, under the control of another program
+- Crypto-malware uses a system’s resources to mine cryptocurrency
+-  A logic bomb is a piece of code that sits dormant for a period of time until some event or date invokes its malicious payload
+	- If the event is a specific date or time, the program will often be referred to as a _time bomb_
+- _Spyware_ is software that “spies” on users, recording and reporting on their activities
+- A keylogger is a piece of software that logs all of the keystrokes that a user enters
+	- unknown to the user
+	- not under the user's control
+- A remote-access trojan (RAT) is a toolkit designed to provide the capability of covert surveillance and/or the capability to gain unauthorized access to a target system
+	- rather than just being a program, it has an operator behind it, guiding it to do even more persistent damage
+- Rootkits are a form of malware that is specifically designed to modify the operation of the operating system in some fashion to facilitate nonstandard functionality
+- **Backdoors** were originally (and sometimes still are) nothing more than methods used by software developers to ensure that they can gain access to an application, even if something were to happen in the future to prevent normal access methods.
+# Password Attacks
+- Password spraying is an attack that uses a limited number of commonly used passwords and applies them to a large number of accounts
+- Dictionary attacks use a list of dictionary words to try to guess the password
+	- Rules allow for mutation of dictionary words and get more passwords
+- Brute force attacks try every possible combination
+	- Offline and Online attacks
+- Rainbow tables are precomputed tables/hash values associated with passwords
+	- Best defense against this is salted hashes
+- Plaintext/unencrypted attacks are when passwords that are stored are subject to retrieval
+# Physical Attacks
+- Malicious Universal Serial Bus (USB) Cable
+- Malicious Flash Drives
+- Card Cloning
+- Skimming devices are physical devices built to intercept a credit card
+- Adversarial AI
+- Tainted Training for Machine Learning (ML)
+- Supply-Chain Attacks
+- Cryptographic Attacks
+	- weaknesses in algorithms can be exploited
+- Birthday attack
+	- plays off of the weakness of hashing algorithms to find "collisions" (two different strings produce the same hash)
+- Downgrade
+	- Because the encryption of a connection can be negotiated, it can be downgraded to an almost nonexistent state

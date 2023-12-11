@@ -4,4 +4,75 @@
 - Techniques include
 	- making it seem as if you belong to the group to gain unauthorized access
 	- creating a hostile situation
+	- stereotypical behavior (flirting, etc)
+
+## Methods of Social Engineering
+- Tools
+	- A social engineer's biggest tool is their knowledge of psychology
+- Phishing
+- Smishing
+	- phishing over SMS on cell phones
+- Vishing
+	- phishing over voice communications
+- Spam
+	- bulk unsolicited email that may include malicious attatchments or links
+- Spam over Instant Messaging (SPIM)
+- Spear Phishing
+	- targeted attacks
+- Dumpster Diving
+- Shoulder Surfing
+- **Pharming**
+	- misdirecting users to fake websites made to look official
+- Tailgaiting/Piggybacking
+- Eliciting Information
+- Whaling
+	- Spear phishing on a high value target
+- Prepending
+	- Using the psychological constructs of authority, an attacker can use prepending by stating that they were sent by the target’s boss, or another authority figure, as a means to justify why the target should perform a specific action
+- Identity Fraud
+- Invoice Scams
+	- use a fake invoice in an attempt to get a company to pay for things it has not ordered
+- Credential Harvesting
+	- the collection of credential information
+- Reconnaissance
+- Hoax
+	- hoaxes can cause people to take an action that results in lowered security
+- Impersonation
+- Third-Party Authorization - the attacker
+	- arrives with something the victim is quasi-expecting or would see as normal,
+	- uses the guise of a project in trouble or some other situation where the attacker will be viewed as helpful or as someone not to upset
+	- name-drops the contact “Mr. Big,” who happens to be out of the office and unreachable at the moment, thus avoiding the reference check
+- Contractors/Outside Parties
+- Online Attacks
+- Defenses
+	- A training and awareness program is still the best defense against social engineering attacks.
+- Watering Hole Attack
+	- attackers can plant malware at sites where users are likely to frequent.
+- Typosquatting
+	- g0ogle.com instead of google.com
+	- rbfc.com instead of rbfcu.org
+- Pretexting
+	- the attacker uses a narrative (the pretext) to influence the victim into giving up some item of information
+	- The main goal of the attacker is to gain the target’s trust and exploit it.
+- Influence Campaigns
+	- the use of collected information and selective publication of material to key individuals in an attempt to alter perceptions and change people’s minds on a topic
+## Principles (Reasons for Effectiveness)
+- Two reasons why social engineering is so successful
+	- The basic desire of most people to be helpful
+	- People normally seek to avoid confrontation/trouble
+
+- Principles of social engineering
+	- Authority
+	- Intimidation
+	- Consensus
+	- Scarcity
+	- Familiarity
+	- Trust
+	- Urgency
+- Defenses
+	- Visitor access
+	- Rules before assisting a customer
+	- Verifying requests as legitimate before sharing certain sensitive elements
+	- **the critical element is employee training**
+	- have multiple layers of defenses, including approvals and related safeguards so that a single mistake from an employee will not give away the keys to the kingdom
 	- 
