@@ -1,0 +1,83 @@
+- Advanced Persistent Threats (APTs)
+	- characterized by using toolkits to achieve a presence on a target network and then, instead of just moving to steal information, focusing on the long game by maintaining a persistent presence on the target network
+	- 3 goals
+		- Maintain continual access
+		- Remain undetected
+		- Steal something of value on the network
+- Insider Threats
+- State Actors
+- Hacktivists
+- Script Kiddies
+- Criminal Syndicates
+
+- Hackers: anyone who improperly uses computers
+	- Authorized / White Hat
+	- Unauthorized / Black Hat
+	- Semi-authorized / Gray Hat
+		- often violate ethics and laws, but do not always have the same malicious intent as black hat hackers.
+- Shadow IT
+	- People performing IT functions outside of the central IT department
+- Competitors
+	- Sometimes competing firms attack each other
+
+- Attributes of Actors
+	- Interl/External
+	- Level of Sophistication/Capability
+	- Resources/Funding
+	- Intent/Motivation
+
+- Vectors
+	- Direct Access
+	- Wireless
+	- E-mail
+	- Supply Chain
+	- Social Media
+	- Removable Media
+	- Cloud
+
+- Threat Intelligence Sources
+	- Open Source Intelligence (OSINT)
+	- Closed/Proprietary
+	- Vulnerability Databases
+		- National Vulnerability Database (NVD)
+	- Public/Private Information Sharing Centers
+		- Anonymous real-time sharing of information between members to improve overall security postures.
+	- Dark Web
+
+- Indicators of Compromise
+	- Anomalies in privileged user account activity
+	- Geographical irregularities in network traffic
+	- Account login red flags
+	- Increases in database read volumes
+	- HTML response sizes
+	- Large numbers of requests for the same file
+	- Mismatched port-application traffic, including encrypted traffic on plain ports
+	- Suspicious registry or system file changes
+	- Unusual DNS requests
+	- Unexpected patching of systems
+	- Mobile device profile changes
+	- Bundles of data in the wrong place
+	- Web traffic with nonhuman behavior
+	- Signs of DDoS activity, even if temporary
+
+- Automated Indicator Sharing (AIS)
+	- an automated, bidirectional cyber-threat indicator method that’s used for reporting
+- Structured Threat Information Expression (STIX) / Trusted Automated Exchange of Intelligence Information (TAXII)
+	- STIX is a standardized, machine-readable (yet also human-readable) structured language to represent cyber-threat information
+	- TAXII defines a set of services and message exchanges that enable the automated sharing of actionable cyber-threat information across organizational, product line, and service boundaries
+	- **TLDR; TAXII represents the transport method, and STIX represents the message.**
+
+- Predictive Analysis
+- Threat Maps
+- File/Code Repositories
+
+- Research Sources
+	- Vendor Websites
+	- Vulnerability Feeds
+	- Conferences (academic and industry)
+	- Academic Journals (issue of applicability)
+	- Request for Comment (RFCs)
+	- Local Industry Groups
+	- Social Media
+	- Threat Feeds
+	- Adversary Tactics, Techniques, and Procedures (TTPs)

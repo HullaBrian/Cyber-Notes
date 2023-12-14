@@ -1,0 +1,41 @@
+- Cloud-based vs. On-premises Vulnerabilities
+- Zero Day
+	- Compensating controls block the path to the vulnerability rather than directly addressing it
+- Weak Configurations
+- Open Permissions
+- Insecure Root Accounts
+- Errors (should be trapped)
+- Weak encryption
+	- making your own algorithm or implementation
+	- using a deprecated/weak cryptographic algorithm
+- Insecure protocols
+	- HTTP instead of HTTPS
+- Default Settings
+- Open Ports and Services
+- Third Party Risks
+	- outsourcing code development, storage in the cloud
+- Vendor Management
+- System Integration
+	- Integrations can have gaps and configuration requirements that lead to risk
+- Lack of Vendor Support
+	- End of Life: something has reached the end of its useful life
+	- End of Service Life: manufacturer stops selling something
+- Supply Chain
+- Outsourced Code Development
+- Data Storage
+- Improper or Weak Patch Management
+	- When a company issues a patch, attackers can reverse engineer the exploit from it. Making sure the enterprise has a strong patch management system is vital
+- Firmware
+- Operating Systems (OS)
+	- PATCH YOUR STUFF DUDE
+- Applications
+- Legacy Platforms: systems no longer supported/marketed
+
+- Impacts
+	- Data Loss
+	- Data Breaches
+	- Data Exfiltration
+	- Identity Theft
+	- Financial
+	- Reputation
+	- Availability loss

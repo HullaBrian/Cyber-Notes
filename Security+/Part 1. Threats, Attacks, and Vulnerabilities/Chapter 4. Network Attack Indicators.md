@@ -1,0 +1,60 @@
+# Wireless
+- Evil Twin
+	- An attack the uses substitute hardware
+	- Perform either MitM attacks or DOS attacks
+- Rogue Access Point
+	- A rogue AP is an AP that is usually placed on an internal network either by accident or for nefarious reasons. It is not administered by the network owner or administrator. An evil twin is an AP that appears to be legitimate but isn’t and is often used to eavesdrop on wireless communications.
+- Bluesnarfing
+	- the unauthorized taking of data over a Bluetooth channel
+	- Similar to bluejacking
+	- the attacker copies off the victim’s information
+- Bluejacking
+	- the sending of unauthorized data/messages via Bluetooth
+- Disassociation (DeAuth attack)
+- Jamming
+- Radio Frequency Identification (RFID)
+	- Against the RFID devices themselves (the chips and readers)
+	- Against the communication channel between the device and the reader
+	- Against the reader and back-end system
+- Near Field Communication (NFC)
+	- NFC is a high-frequency subset of RFID and acts over a much shorter distance
+- Initialization Vector (IV)
+	- used in wireless systems as the randomization element at the beginning of a connection
+	-  The biggest weakness of WEP is that the IV problem exists regardless of key length because the IV always remains at 24 bits.
+- On-path Attack AKA a Man in the Middle Attack
+	- Session Hijacking
+		- can occur when information such as a cookie is stolen, allowing the attacker to impersonate the legitimate session
+	- Man in the Browser (MITB)
+		- Malware sits in the browser and modifies keystrokes to achieve a different outcome
+# Layer 2 Attacks
+- 3 areas of significance
+	- ARP poisoning
+		- Saying you're someone you aren't to get traffic not meant for you
+	- MAC flooding
+		- Causing a switch to act like a hub (sending all packets to every device) by making the switch unable to find the correct MAC address
+	- MAC cloning/spoofing
+# Domain Name System (DNS)
+- Domain Hijacking
+	- changing the registration of a domain without permission
+- DNS Poisoning
+	- Changing the address a domain name resolves to
+	- DNS Spoofing
+		- an attacker changes a DNS record through any of a multitude of means.
+- Universal Resource Locator (URL) Redirection
+	- a man in the middle attack where all of your traffic is being read and redirected
+- Domain Reputation
+	- Your ip address has a "credit score" in the form of reputation from ISPs and Security companies - get your score low enough and you lose a service
+# Distributed Denial of Service (DDOS)
+- SYN flooding
+- Ping of Death (sending ICMP packet that is unnaturally large)
+- Connectionless LDAP (CLDAP) enables a reflection attack by spoofing a victim's ip address and then requesting information on all accounts in the AD network.
+	- Blocking UDP port 389 blocks this
+- Operational Technology (OT)
+	- name given to networks of industrial devices in cyber-physical systems
+	- OT protocols don't do well with DDoS attacks
+# Malicious Code and Script Execution
+- Powershell
+- Python
+- Bash
+- Macros
+- Visual Basic for Applications (VBA)
